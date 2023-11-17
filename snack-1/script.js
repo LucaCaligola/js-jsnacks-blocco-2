@@ -2,12 +2,18 @@
 // Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando 
 // la somma degli elementi è minore di 50.
 
-let vuoto = [];
+const array = [];
 
 let somma = 0;
 
-let numero = parseInt(prompt("type a number"));
 
 while (somma < 50) {
-    
+    let numero = parseInt(prompt("Type a number"));
+    if (!isNaN(numero))
+    somma += numero;
+
+    array.push(numero)
+
+
 }
+console.log (array, somma);
