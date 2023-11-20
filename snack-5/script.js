@@ -7,7 +7,7 @@ const cardElement = document.createElement ('p');
 
 
 function element (padre, figlio) {
-    
-    wrapper.appendChild (cardElement)
+
+    wrapper.appendChild(cardElement);
   
 }
