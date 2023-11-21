@@ -9,9 +9,9 @@ console.log (userNumber);
 
 
 for (let i = 0; i < userNumber; i++) {
-    const currentSquare = getSquare ();
+   
 
-    wrapper.appendChild(newSquareElement)
+    wrapper.appendChild(getSquare())
 }
 
 
