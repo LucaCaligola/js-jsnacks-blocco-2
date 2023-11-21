@@ -4,7 +4,25 @@
 
 
 const userNumber = parseInt(prompt("scegli un numero"));
+const wrapper = document.querySelector('div.wrapper');
 console.log (userNumber);
+
+
+for (let i = 0; i < userNumber; i++) {
+    const currentSquare = getSquare ();
+
+    wrapper.appendChild(newSquareElement)
+}
+
+
+
+
+
+
+
+
+
+
 
 function getSquare () {
     const newSquareElement = document.createElement('div')
