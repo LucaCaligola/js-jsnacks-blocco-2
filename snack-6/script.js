@@ -24,7 +24,7 @@ for (let i = 0; i < userNumber; i++) {
 
 
 
-function getSquare () {
+function getSquare() {
     const newSquareElement = document.createElement('div')
     newSquareElement.classList.add('square');
     return newSquareElement;
