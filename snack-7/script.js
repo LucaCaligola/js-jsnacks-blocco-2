@@ -33,9 +33,40 @@ const zucchinaGialla = {
     
 }
 
-const zucchinaGNera = {
+const zucchinaNera = {
     nome: 'Zucchina Nera',
     peso: 300,
     lunghezza: 11,
     
 }
+
+const zucchinaVerde = {
+    nome: 'Zucchina Verde',
+    peso: 400,
+    lunghezza: 10,
+    
+}
+
+
+const zucchinaCrookneck= {
+    nome: 'Zucchina Crookneck:',
+    peso: 300,
+    lunghezza: 11,  
+}
+
+
+const zucchinaX= {
+    nome: 'Zucchina X:',
+    peso: 500,
+    lunghezza: 14,  
+}
+
+const zucchinaY= {
+    nome: 'Zucchina Y:',
+    peso: 200,
+    lunghezza: 6,  
+}
+
+const pesoZucchine = (zucchinaY.peso + zucchinaX.peso + zucchinaCrookneck.peso + zucchinaVerde.peso + zucchinaNera.peso + zucchinaGialla.peso + zucchinaNapoletana.peso + zucchinaTonda.peso + zucchinaFiorentina.peso + zucchinaRomana.peso);
+
+console.log(pesoZucchine);
